@@ -2,6 +2,7 @@ package com.example.broadcast.controller;
 
 import com.example.broadcast.mudule.ClassModule;
 import com.example.broadcast.mudule.SampleMudule;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,6 +14,9 @@ import java.util.stream.Collectors;
 
 @Controller
 public class IndexController {
+
+    @Value("${class.list}")
+    private String classList;
 
     @RequestMapping("/")
     public ModelAndView hi() {
@@ -46,23 +50,14 @@ public class IndexController {
 
     @RequestMapping("/large_screen")
     public ModelAndView largeScreen(){
+        if (StringUtils.isEmpty(classList)){
+            return null;
+        }
+        String[] classArr = classList.split(",");
         Map<String, ClassModule> maps = new HashMap<>();
-        maps.put("一年级(1)班", new ClassModule("一年级(1)班", 0));
-        maps.put("一年级(2)班", new ClassModule("一年级(2)班", 1));
-        maps.put("一年级(3)班", new ClassModule("一年级(3)班", 0));
-        maps.put("一年级(4)班", new ClassModule("一年级(4)班", 1));
-        maps.put("一年级(5)班", new ClassModule("一年级(5)班", 0));
-        maps.put("二年级(1)班", new ClassModule("二年级(1)班", 1));
-        maps.put("二年级(2)班", new ClassModule("二年级(2)班", 0));
-        maps.put("二年级(3)班", new ClassModule("二年级(3)班", 1));
-        maps.put("二年级(4)班", new ClassModule("二年级(4)班", 0));
-        maps.put("二年级(5)班", new ClassModule("二年级(5)班", 1));
-        maps.put("三年级(1)班", new ClassModule("三年级(1)班", 0));
-        maps.put("三年级(2)班", new ClassModule("三年级(2)班", 1));
-        maps.put("三年级(3)班", new ClassModule("三年级(3)班", 0));
-        maps.put("三年级(4)班", new ClassModule("三年级(4)班", 1));
-        maps.put("三年级(5)班", new ClassModule("三年级(5)班", 0));
-
+        for (String str:classArr){
+            maps.put(str, new ClassModule(str, 0));
+        }
         ModelAndView mav = new ModelAndView("large_screen");
         mav.addObject("maps", maps);
         return mav;
