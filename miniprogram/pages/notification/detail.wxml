@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="notification-detail">
+    <view class="title">{{notification.title}}</view>
+    <view class="info">
+      <text class="time">{{notification.createTime}}</text>
+      <text class="scope">{{notification.schoolName}} {{notification.gradeName}} {{notification.className}}</text>
+    </view>
+    <view class="content">{{notification.content}}</view>
+  </view>
+</view>

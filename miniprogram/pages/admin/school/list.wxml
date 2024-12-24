@@ -1,0 +1,49 @@
+<view class="container">
+  <view class="header">
+    <view class="search">
+      <input type="text" placeholder="搜索学校名称" value="{{searchKey}}" bindinput="inputSearch"/>
+      <view class="search-btn" bindtap="search">搜索</view>
+    </view>
+    <view class="add-btn" bindtap="showModal">添加学校</view>
+  </view>
+
+  <view class="school-list">
+    <view class="school-item" wx:for="{{schools}}" wx:key="id">
+      <view class="school-info">
+        <view class="name">{{item.name}}</view>
+        <view class="address">{{item.address}}</view>
+      </view>
+      <view class="actions">
+        <view class="edit" bindtap="editSchool" data-id="{{item.id}}">编辑</view>
+        <view class="delete" bindtap="deleteSchool" data-id="{{item.id}}">删除</view>
+      </view>
+    </view>
+    <view class="empty" wx:if="{{schools.length === 0}}">暂无数据</view>
+  </view>
+
+  <!-- 添加/编辑学校弹窗 -->
+  <view class="modal" wx:if="{{showModal}}">
+    <view class="modal-mask" bindtap="closeModal"></view>
+    <view class="modal-content">
+      <view class="modal-title">{{editingSchool ? '编辑' : '添加'}}学校</view>
+      <view class="form">
+        <view class="form-item">
+          <text class="label">学校名称</text>
+          <input class="input" value="{{formData.name}}" bindinput="inputName" placeholder="请输入学校名称"/>
+        </view>
+        <view class="form-item">
+          <text class="label">学校地址</text>
+          <input class="input" value="{{formData.address}}" bindinput="inputAddress" placeholder="请输入学校地址"/>
+        </view>
+        <view class="form-item">
+          <text class="label">联系电话</text>
+          <input class="input" value="{{formData.phone}}" bindinput="inputPhone" placeholder="请输入联系电话"/>
+        </view>
+      </view>
+      <view class="modal-buttons">
+        <button class="cancel" bindtap="closeModal">取消</button>
+        <button class="confirm" bindtap="saveSchool">确定</button>
+      </view>
+    </view>
+  </view>
+</view>

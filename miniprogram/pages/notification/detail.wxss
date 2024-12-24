@@ -1,0 +1,30 @@
+.container {
+  padding: 20rpx;
+}
+
+.notification-detail {
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 30rpx;
+}
+
+.content {
+  font-size: 30rpx;
+  color: #666;
+  line-height: 1.6;
+}

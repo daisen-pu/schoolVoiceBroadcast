@@ -1,0 +1,50 @@
+.container {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 20rpx;
+}
+
+.form {
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 0 30rpx;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+
+.form-item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  width: 140rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.input {
+  flex: 1;
+  font-size: 30rpx;
+  color: #666;
+}
+
+.button-group {
+  margin-top: 60rpx;
+  padding: 0 30rpx;
+}
+
+.save-btn {
+  background: #1296db;
+  color: #fff;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+}
+
+.save-btn:active {
+  opacity: 0.8;
+}

@@ -1,0 +1,79 @@
+<view class="container">
+  <view class="header">
+    <view class="filter">
+      <picker bindchange="schoolChange" value="{{schoolIndex}}" range="{{schools}}" range-key="name">
+        <view class="picker">
+          <text>{{schools[schoolIndex].name || '选择学校'}}</text>
+          <image src="/images/arrow-down.png"></image>
+        </view>
+      </picker>
+      <picker bindchange="gradeChange" value="{{gradeIndex}}" range="{{grades}}" range-key="name">
+        <view class="picker">
+          <text>{{grades[gradeIndex].name || '选择年级'}}</text>
+          <image src="/images/arrow-down.png"></image>
+        </view>
+      </picker>
+    </view>
+    <view class="search">
+      <input type="text" placeholder="搜索班级名称" value="{{searchKey}}" bindinput="inputSearch"/>
+      <view class="search-btn" bindtap="search">搜索</view>
+    </view>
+    <view class="add-btn" bindtap="showModal">添加班级</view>
+  </view>
+
+  <view class="class-list">
+    <view class="class-item" wx:for="{{classes}}" wx:key="id">
+      <view class="class-info">
+        <view class="name">{{item.name}}</view>
+        <view class="detail">
+          <text>{{item.schoolName}}</text>
+          <text>{{item.gradeName}}</text>
+          <text>班主任：{{item.teacher}}</text>
+        </view>
+      </view>
+      <view class="actions">
+        <view class="edit" bindtap="editClass" data-id="{{item.id}}">编辑</view>
+        <view class="delete" bindtap="deleteClass" data-id="{{item.id}}">删除</view>
+      </view>
+    </view>
+    <view class="empty" wx:if="{{classes.length === 0}}">暂无数据</view>
+  </view>
+
+  <!-- 添加/编辑班级弹窗 -->
+  <view class="modal" wx:if="{{showModal}}">
+    <view class="modal-mask" bindtap="closeModal"></view>
+    <view class="modal-content">
+      <view class="modal-title">{{editingClass ? '编辑' : '添加'}}班级</view>
+      <view class="form">
+        <view class="form-item">
+          <text class="label">所属学校</text>
+          <picker bindchange="modalSchoolChange" value="{{modalSchoolIndex}}" range="{{schools}}" range-key="name">
+            <view class="picker">{{schools[modalSchoolIndex].name || '请选择学校'}}</view>
+          </picker>
+        </view>
+        <view class="form-item">
+          <text class="label">所属年级</text>
+          <picker bindchange="modalGradeChange" value="{{modalGradeIndex}}" range="{{modalGrades}}" range-key="name">
+            <view class="picker">{{modalGrades[modalGradeIndex].name || '请选择年级'}}</view>
+          </picker>
+        </view>
+        <view class="form-item">
+          <text class="label">班级名称</text>
+          <input class="input" value="{{formData.name}}" bindinput="inputName" placeholder="请输入班级名称"/>
+        </view>
+        <view class="form-item">
+          <text class="label">班主任</text>
+          <input class="input" value="{{formData.teacher}}" bindinput="inputTeacher" placeholder="请输入班主任姓名"/>
+        </view>
+        <view class="form-item">
+          <text class="label">联系电话</text>
+          <input class="input" value="{{formData.phone}}" bindinput="inputPhone" placeholder="请输入联系电话"/>
+        </view>
+      </view>
+      <view class="modal-buttons">
+        <button class="cancel" bindtap="closeModal">取消</button>
+        <button class="confirm" bindtap="saveClass">确定</button>
+      </view>
+    </view>
+  </view>
+</view>

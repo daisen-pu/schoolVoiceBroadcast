@@ -1,0 +1,60 @@
+<view class="container">
+  <view class="children-list">
+    <view class="children-item" wx:for="{{children}}" wx:key="id">
+      <view class="children-info">
+        <view class="name">{{item.name}}</view>
+        <view class="school-info">
+          <text>{{item.schoolName}}</text>
+          <text>{{item.gradeName}}</text>
+          <text>{{item.className}}</text>
+        </view>
+      </view>
+      <view class="actions">
+        <view class="edit" bindtap="editChildren" data-id="{{item.id}}">编辑</view>
+        <view class="delete" bindtap="deleteChildren" data-id="{{item.id}}">删除</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="empty" wx:if="{{children.length === 0}}">
+    <text>暂无子女信息</text>
+  </view>
+
+  <view class="add-btn" bindtap="addChildren">添加子女</view>
+
+  <!-- 添加/编辑子女弹窗 -->
+  <view class="modal" wx:if="{{showModal}}">
+    <view class="modal-mask" bindtap="closeModal"></view>
+    <view class="modal-content">
+      <view class="modal-title">{{editingChildren ? '编辑' : '添加'}}子女</view>
+      <view class="form">
+        <view class="form-item">
+          <text class="label">姓名</text>
+          <input class="input" value="{{formData.name}}" bindinput="inputName" placeholder="请输入姓名"/>
+        </view>
+        <view class="form-item">
+          <text class="label">学校</text>
+          <picker bindchange="schoolChange" value="{{schoolIndex}}" range="{{schools}}" range-key="name">
+            <view class="picker">{{schools[schoolIndex].name || '请选择学校'}}</view>
+          </picker>
+        </view>
+        <view class="form-item">
+          <text class="label">年级</text>
+          <picker bindchange="gradeChange" value="{{gradeIndex}}" range="{{grades}}" range-key="name">
+            <view class="picker">{{grades[gradeIndex].name || '请选择年级'}}</view>
+          </picker>
+        </view>
+        <view class="form-item">
+          <text class="label">班级</text>
+          <picker bindchange="classChange" value="{{classIndex}}" range="{{classes}}" range-key="name">
+            <view class="picker">{{classes[classIndex].name || '请选择班级'}}</view>
+          </picker>
+        </view>
+      </view>
+      <view class="modal-buttons">
+        <button class="cancel" bindtap="closeModal">取消</button>
+        <button class="confirm" bindtap="saveChildren">确定</button>
+      </view>
+    </view>
+  </view>
+</view>

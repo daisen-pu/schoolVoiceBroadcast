@@ -1,0 +1,154 @@
+.container {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 20rpx;
+}
+
+.children-list {
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+.children-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.children-info {
+  flex: 1;
+}
+
+.name {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.school-info {
+  font-size: 26rpx;
+  color: #666;
+}
+
+.school-info text {
+  margin-right: 20rpx;
+}
+
+.actions {
+  display: flex;
+}
+
+.edit, .delete {
+  padding: 10rpx 20rpx;
+  border-radius: 6rpx;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+.edit {
+  background: #1296db;
+  color: #fff;
+}
+
+.delete {
+  background: #ff4d4f;
+  color: #fff;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+  padding: 100rpx 0;
+}
+
+.add-btn {
+  position: fixed;
+  bottom: 40rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1296db;
+  color: #fff;
+  padding: 20rpx 60rpx;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+}
+
+/* 弹窗样式 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+.modal-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 34rpx;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.label {
+  width: 120rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.input, .picker {
+  flex: 1;
+  font-size: 30rpx;
+  color: #666;
+  padding: 10rpx 0;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+
+.cancel, .confirm {
+  width: 45%;
+  font-size: 30rpx;
+  padding: 15rpx 0;
+}
+
+.cancel {
+  background: #f5f5f5;
+  color: #666;
+}
+
+.confirm {
+  background: #1296db;
+  color: #fff;
+}

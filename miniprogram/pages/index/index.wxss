@@ -1,0 +1,97 @@
+.container {
+  padding: 20rpx;
+}
+
+.header {
+  padding: 30rpx;
+  background: #1296db;
+  color: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.welcome {
+  font-size: 36rpx;
+  margin-bottom: 20rpx;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.nickname {
+  font-size: 32rpx;
+}
+
+.login-btn {
+  margin-top: 20rpx;
+  background: #fff;
+  color: #1296db;
+}
+
+.notice-board {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.notice-item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.notice-title {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+
+.notice-time {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+  padding: 30rpx;
+}
+
+.quick-actions {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action-item image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 10rpx;
+}
+
+.action-item text {
+  font-size: 24rpx;
+  color: #333;
+}

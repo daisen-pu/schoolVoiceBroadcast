@@ -1,0 +1,71 @@
+<view class="container">
+  <view class="header">
+    <view class="school-select">
+      <picker bindchange="schoolChange" value="{{schoolIndex}}" range="{{schools}}" range-key="name">
+        <view class="picker">
+          <text>{{schools[schoolIndex].name || '选择学校'}}</text>
+          <image src="/images/arrow-down.png"></image>
+        </view>
+      </picker>
+    </view>
+    <view class="search">
+      <input type="text" placeholder="搜索用户" value="{{searchKey}}" bindinput="inputSearch"/>
+      <view class="search-btn" bindtap="search">搜索</view>
+    </view>
+    <view class="add-btn" bindtap="showModal">添加用户</view>
+  </view>
+
+  <view class="user-list">
+    <view class="user-item" wx:for="{{users}}" wx:key="id">
+      <view class="user-info">
+        <view class="name">{{item.name}}</view>
+        <view class="phone">{{item.phone}}</view>
+      </view>
+      <view class="actions">
+        <view class="edit" bindtap="editUser" data-id="{{item.id}}">编辑</view>
+        <view class="delete" bindtap="deleteUser" data-id="{{item.id}}">删除</view>
+      </view>
+    </view>
+    <view class="empty" wx:if="{{schoolIndex !== -1 && !loading && users.length === 0}}">暂无数据</view>
+    <view class="loading" wx:if="{{loading}}">
+      <text>加载中...</text>
+    </view>
+    <view class="no-more" wx:if="{{!loading && users.length >= total && users.length > 0}}">
+      <text>没有更多数据了</text>
+    </view>
+  </view>
+
+  <!-- 添加/编辑用户弹窗 -->
+  <view class="modal" wx:if="{{showModal}}">
+    <view class="modal-mask" bindtap="closeModal"></view>
+    <view class="modal-content">
+      <view class="modal-title">{{editingUser ? '编辑' : '添加'}}用户</view>
+      <view class="form">
+        <view class="form-item">
+          <text class="label">所属学校</text>
+          <picker bindchange="modalSchoolChange" value="{{modalSchoolIndex}}" range="{{schools}}" range-key="name">
+            <view class="picker">{{schools[modalSchoolIndex].name || '请选择学校'}}</view>
+          </picker>
+        </view>
+        <view class="form-item">
+          <text class="label">用户名称</text>
+          <input class="input" value="{{formData.name}}" bindinput="inputName" placeholder="请输入用户名称"/>
+        </view>
+        <view class="form-item">
+          <text class="label">手机号码</text>
+          <input class="input" value="{{formData.phone}}" bindinput="inputPhone" placeholder="请输入手机号码"/>
+        </view>
+        <view class="form-item">
+          <text class="label">用户角色</text>
+          <picker bindchange="roleChange" value="{{roleIndex}}" range="{{roles}}" range-key="name">
+            <view class="picker">{{roles[roleIndex].name || '请选择角色'}}</view>
+          </picker>
+        </view>
+      </view>
+      <view class="modal-footer">
+        <view class="btn cancel" bindtap="closeModal">取消</view>
+        <view class="btn confirm" bindtap="saveUser">确定</view>
+      </view>
+    </view>
+  </view>
+</view>

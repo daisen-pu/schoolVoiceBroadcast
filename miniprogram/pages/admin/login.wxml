@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="login-box">
+    <view class="title">管理员登录</view>
+    <view class="form">
+      <view class="form-item">
+        <image src="/images/user.png"></image>
+        <input type="text" placeholder="请输入用户名" value="{{username}}" bindinput="inputUsername"/>
+      </view>
+      <view class="form-item">
+        <image src="/images/password.png"></image>
+        <input type="password" placeholder="请输入密码" value="{{password}}" bindinput="inputPassword"/>
+      </view>
+    </view>
+    <button class="login-btn" bindtap="login">登录</button>
+  </view>
+</view>

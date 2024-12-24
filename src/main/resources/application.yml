@@ -1,0 +1,87 @@
+server:
+  port: 8080
+#  ssl:
+#    key-store: classpath:keystore.p12
+#    key-store-password: password
+#    key-store-type: PKCS12
+#    key-alias: testCert
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    druid:
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 60000
+  
+  # Thymeleaf配置
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML
+    servlet:
+      content-type: text/html
+  
+  # 开发工具配置
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: static/**,public/**
+      
+  # 文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.school.broadcast
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+# Sa-Token配置
+sa-token:
+  token-name: token
+  timeout: 2592000
+  activity-timeout: -1
+  is-concurrent: true
+  is-share: false
+  token-style: uuid
+  is-log: false
+
+# 微信小程序配置
+wx:
+  miniapp:
+    appid: wx6100d9b2771f14f6
+    secret: a588225b61a0cc2c9e9a9814f8011f63
+    msgDataFormat: JSON
+
+# 日志配置
+logging:
+  level:
+    root: INFO
+    com.example.broadcast: DEBUG
+  file:
+    name: logs/school-broadcast.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"
+
+class:
+  list: 一年级(1)班,一年级(2)班,一年级(3)班,一年级(4)班,一年级(5)班,一年级(6)班,一年级(7)班,一年级(8)班,一年级(9)班,一年级(10)班,二年级(1)班,二年级(2)班,二年级(3)班,二年级(4)班,二年级(5)班,二年级(6)班,二年级(7)班,二年级(8)班,二年级(9)班,二年级(10)班,三年级(1)班,三年级(2)班,三年级(3)班,三年级(4)班,三年级(5)班,三年级(6)班,三年级(7)班,三年级(8)班,三年级(9)班,三年级(10)班

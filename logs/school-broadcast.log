@@ -1,0 +1,771 @@
+2024-12-16 16:09:37.837 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:09:37.847 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:09:37.896 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-16 16:09:37.897 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-16 16:09:39.621 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 16:09:39.629 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 16:09:39.630 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 16:09:39.743 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 16:09:39.743 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1845 ms
+2024-12-16 16:09:40.396 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 16:09:41.068 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 16:09:41.936 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:09:42.044 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 16:09:42.270 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 16:09:42.302 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 16:09:42.312 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 4.941 seconds (JVM running for 6.816)
+2024-12-16 16:10:33.884 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 16:10:33.884 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-16 16:10:33.885 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-16 16:10:46.310 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:10:46.311 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 16:10:46.318 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-16 16:10:46.482 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:10:46.483 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:10:46.784 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 16:10:46.785 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 16:10:46.785 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 16:10:46.811 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 16:10:46.811 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 324 ms
+2024-12-16 16:10:46.849 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 16:10:46.931 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2024-12-16 16:10:47.237 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:10:47.257 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 16:10:47.303 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 16:10:47.312 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 16:10:47.314 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 0.864 seconds (JVM running for 71.819)
+2024-12-16 16:10:47.316 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-16 16:11:02.233 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 16:11:02.234 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-16 16:11:02.235 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-16 16:42:23.132 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 16:42:28.717 [http-nio-8080-exec-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 1886328
+2024-12-16 16:42:28.718 [http-nio-8080-exec-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 1901800
+2024-12-16 16:42:28.720 [http-nio-8080-exec-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 1901813
+2024-12-16 16:42:28.723 [http-nio-8080-exec-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 1901827
+2024-12-16 16:42:28.725 [http-nio-8080-exec-8] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 1901837
+2024-12-16 16:42:32.075 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 16:45:36.535 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:45:36.537 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2024-12-16 16:45:36.539 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2024-12-16 16:45:55.864 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:45:55.865 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:45:57.332 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 16:45:57.337 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 16:45:57.338 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 16:45:57.434 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 16:45:57.434 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1565 ms
+2024-12-16 16:45:57.551 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 16:45:57.921 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2024-12-16 16:45:58.724 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:45:58.773 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 16:45:58.902 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 16:45:58.933 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 16:45:58.939 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 3.168 seconds (JVM running for 2183.443)
+2024-12-16 16:45:58.966 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-16 16:51:53.067 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:51:53.069 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2024-12-16 16:51:53.074 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2024-12-16 16:51:53.299 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:51:53.299 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:51:53.774 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'null'
+2024-12-16 16:51:53.775 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:51:53.778 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'null'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) [spring-boot-2.4.2.jar:2.4.2]
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_371]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_371]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_371]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_371]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'null'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:132) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:92) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:57) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:349) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:327) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:192) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Resource location must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:130) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:129) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 21 common frames omitted
+2024-12-16 16:51:58.343 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:51:58.344 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:51:58.596 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.jks'
+2024-12-16 16:51:58.600 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:51:58.606 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.jks'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) [spring-boot-2.4.2.jar:2.4.2]
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_371]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_371]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_371]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_371]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.jks'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:132) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:92) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:57) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:349) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:327) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:192) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 14 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [keystore.jks] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:129) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 21 common frames omitted
+2024-12-16 16:52:11.371 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:52:11.371 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:52:11.534 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+2024-12-16 16:52:11.536 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:52:11.538 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) [spring-boot-2.4.2.jar:2.4.2]
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_371]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_371]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_371]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_371]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:132) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:92) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:57) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:349) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:327) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:192) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 14 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [keystore.p12] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:129) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 21 common frames omitted
+2024-12-16 16:52:21.226 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:52:21.226 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:52:21.414 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+2024-12-16 16:52:21.415 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:52:21.418 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) [spring-boot-2.4.2.jar:2.4.2]
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_371]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_371]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_371]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_371]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:132) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:92) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:57) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:349) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:327) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:192) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 14 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [keystore.p12] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:129) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 21 common frames omitted
+2024-12-16 16:52:28.020 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:52:28.020 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:52:28.182 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+2024-12-16 16:52:28.183 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:52:28.186 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) [spring-boot-2.4.2.jar:2.4.2]
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_371]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_371]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_371]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_371]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:132) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:92) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:57) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:349) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:327) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:192) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 14 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [keystore.p12] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:129) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 21 common frames omitted
+2024-12-16 16:52:39.901 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:52:39.901 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:52:40.077 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+2024-12-16 16:52:40.079 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:52:40.081 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) [spring-boot-2.4.2.jar:2.4.2]
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_371]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_371]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_371]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_371]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:keystore.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:132) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:92) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:57) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:349) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:327) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:192) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 14 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [keystore.p12] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:129) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 21 common frames omitted
+2024-12-16 16:52:51.799 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 25128 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:52:51.799 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:52:51.977 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+2024-12-16 16:52:51.978 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 16:52:51.978 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 16:52:52.010 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 16:52:52.010 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 209 ms
+2024-12-16 16:52:52.039 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 16:52:52.105 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2024-12-16 16:52:52.349 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:52:52.362 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 16:52:52.411 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 16:52:52.445 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2024-12-16 16:52:52.446 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:52:52.446 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closing ...
+2024-12-16 16:52:52.448 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed
+2024-12-16 16:52:52.448 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-16 16:52:52.453 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:52:52.455 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.3.jar:5.3.3]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_371]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) [spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) [spring-boot-2.4.2.jar:2.4.2]
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_371]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_371]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_371]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_371]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.3.jar:5.3.3]
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:244) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-2.4.2.jar:2.4.2]
+	... 22 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:240) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Short read of DER length
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:216) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1159) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1245) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:603) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1064) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	... 26 common frames omitted
+Caused by: java.io.IOException: Short read of DER length
+	at sun.security.util.DerInputStream.getLength(DerInputStream.java:599) ~[na:1.8.0_371]
+	at sun.security.util.DerValue.init(DerValue.java:391) ~[na:1.8.0_371]
+	at sun.security.util.DerValue.<init>(DerValue.java:332) ~[na:1.8.0_371]
+	at sun.security.util.DerValue.<init>(DerValue.java:345) ~[na:1.8.0_371]
+	at sun.security.pkcs12.PKCS12KeyStore.engineLoad(PKCS12KeyStore.java:1895) ~[na:1.8.0_371]
+	at java.security.KeyStore.load(KeyStore.java:1449) ~[na:1.8.0_371]
+	at org.apache.tomcat.util.security.KeyStoreUtil.load(KeyStoreUtil.java:67) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:216) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	... 32 common frames omitted
+2024-12-16 16:54:37.665 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 23496 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:54:37.667 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:54:37.740 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-16 16:54:37.740 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-16 16:54:39.368 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+2024-12-16 16:54:39.378 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 16:54:39.378 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 16:54:39.484 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 16:54:39.485 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1743 ms
+2024-12-16 16:54:40.189 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 16:54:40.763 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 16:54:41.618 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:54:41.734 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 16:54:41.959 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 16:54:42.016 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2024-12-16 16:54:42.017 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:54:42.018 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 16:54:42.023 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-16 16:54:42.026 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-16 16:54:42.037 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:54:42.060 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:244)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213)
+	... 22 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:240)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: DerInputStream.getLength(): lengthTag=111, too big.
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:216)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1159)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1245)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:603)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1064)
+	... 26 common frames omitted
+Caused by: java.io.IOException: DerInputStream.getLength(): lengthTag=111, too big.
+	at sun.security.util.DerInputStream.getLength(DerInputStream.java:616)
+	at sun.security.util.DerValue.init(DerValue.java:391)
+	at sun.security.util.DerValue.<init>(DerValue.java:332)
+	at sun.security.util.DerValue.<init>(DerValue.java:345)
+	at sun.security.pkcs12.PKCS12KeyStore.engineLoad(PKCS12KeyStore.java:1895)
+	at java.security.KeyStore.load(KeyStore.java:1449)
+	at org.apache.tomcat.util.security.KeyStoreUtil.load(KeyStoreUtil.java:67)
+	at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:216)
+	at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97)
+	... 32 common frames omitted
+2024-12-16 16:56:07.953 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 12044 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 16:56:07.956 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 16:56:08.010 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-16 16:56:08.010 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-16 16:56:09.422 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+2024-12-16 16:56:09.436 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 16:56:09.437 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 16:56:09.545 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 16:56:09.545 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1535 ms
+2024-12-16 16:56:10.111 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 16:56:10.671 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 16:56:11.500 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:56:11.618 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 16:56:11.848 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 16:56:11.920 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2024-12-16 16:56:11.922 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 16:56:11.923 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 16:56:11.928 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-16 16:56:11.931 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-16 16:56:11.946 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-16 16:56:11.974 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.school.broadcast.SchoolVoiceBroadcastApplication.main(SchoolVoiceBroadcastApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:244)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213)
+	... 22 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:240)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: DerInputStream.getLength(): lengthTag=111, too big.
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:216)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1159)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1245)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:603)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1064)
+	... 26 common frames omitted
+Caused by: java.io.IOException: DerInputStream.getLength(): lengthTag=111, too big.
+	at sun.security.util.DerInputStream.getLength(DerInputStream.java:616)
+	at sun.security.util.DerValue.init(DerValue.java:391)
+	at sun.security.util.DerValue.<init>(DerValue.java:332)
+	at sun.security.util.DerValue.<init>(DerValue.java:345)
+	at sun.security.pkcs12.PKCS12KeyStore.engineLoad(PKCS12KeyStore.java:1895)
+	at java.security.KeyStore.load(KeyStore.java:1449)
+	at org.apache.tomcat.util.security.KeyStoreUtil.load(KeyStoreUtil.java:67)
+	at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:216)
+	at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97)
+	... 32 common frames omitted
+2024-12-16 17:14:38.936 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 19928 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 17:14:38.939 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 17:14:39.001 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-16 17:14:39.002 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-16 17:14:40.495 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 17:14:40.505 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 17:14:40.505 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 17:14:40.614 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 17:14:40.614 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1612 ms
+2024-12-16 17:14:41.162 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 17:14:41.646 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 17:14:42.398 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:14:42.523 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 17:14:42.740 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 17:14:42.796 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 17:14:42.806 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 4.59 seconds (JVM running for 5.397)
+2024-12-16 17:16:30.051 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 17:16:30.052 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-16 17:16:30.052 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-16 17:16:51.915 [http-nio-8080-exec-2] INFO  c.b.wx.miniapp.api.impl.BaseWxMaServiceImpl - resultContent: {"errcode":40013,"errmsg":"invalid appid rid: 675ff003-1dbb0b11-134b25de"}
+2024-12-16 17:18:31.877 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:18:31.878 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 17:18:31.891 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-16 17:18:32.140 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 19928 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 17:18:32.141 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 17:18:32.782 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 17:18:32.782 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 17:18:32.782 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 17:18:33.127 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 17:18:33.127 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 983 ms
+2024-12-16 17:18:33.160 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 17:18:33.245 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2024-12-16 17:18:33.567 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:18:33.587 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 17:18:33.624 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 17:18:33.635 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 17:18:33.637 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 1.551 seconds (JVM running for 236.228)
+2024-12-16 17:18:33.638 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-16 17:18:59.625 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:18:59.627 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2024-12-16 17:18:59.630 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2024-12-16 17:19:06.433 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 26680 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 17:19:06.437 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 17:19:06.491 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-16 17:19:06.491 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-16 17:19:07.923 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 17:19:07.932 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 17:19:07.933 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 17:19:08.046 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 17:19:08.046 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1554 ms
+2024-12-16 17:19:08.692 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 17:19:09.240 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-16 17:19:10.099 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:19:10.210 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 17:19:10.430 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 17:19:10.462 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 17:19:10.474 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 4.626 seconds (JVM running for 9.289)
+2024-12-16 17:19:46.933 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 17:19:46.934 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-16 17:19:46.935 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-16 17:19:47.340 [http-nio-8080-exec-2] INFO  c.b.wx.miniapp.api.impl.BaseWxMaServiceImpl - resultContent: {"access_token":"87_osdCj4KGJ8EO8oPRi-PdVjbNmoayobaT_NT9HK6oLq23_z6Aa1OIzG_ujwSqzGDFJKolgOgwGVqwAWZZch7GgMoC8NHS7evSSZdmUGH25sbDthGK8HFZdiNH_AIRBYiADAUEB","expires_in":7200}
+2024-12-16 17:27:09.600 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2024-12-16 17:30:23.684 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2024-12-16 17:30:38.559 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2024-12-16 17:31:13.607 [http-nio-8080-exec-10] WARN  c.b.wx.miniapp.api.impl.BaseWxMaServiceImpl - 
+【请求地址】: https://api.weixin.qq.com/sns/jscode2session?access_token=87_osdCj4KGJ8EO8oPRi-PdVjbNmoayobaT_NT9HK6oLq23_z6Aa1OIzG_ujwSqzGDFJKolgOgwGVqwAWZZch7GgMoC8NHS7evSSZdmUGH25sbDthGK8HFZdiNH_AIRBYiADAUEB
+【请求参数】：js_code=0c3yw40009b3nT1vEd200hAe0g0yw404&secret=******&grant_type=authorization_code&appid=wx6100d9b2771f14f6
+【错误信息】：错误代码：40163, 错误信息：code been used, rid: 675ff361-5729b559-389079dd，微信原始报文：{"errcode":40163,"errmsg":"code been used, rid: 675ff361-5729b559-389079dd"}
+2024-12-16 17:33:52.110 [http-nio-8080-exec-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 844129
+2024-12-16 17:33:52.112 [http-nio-8080-exec-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 882895
+2024-12-16 17:33:52.114 [http-nio-8080-exec-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 882910
+2024-12-16 17:33:52.130 [http-nio-8080-exec-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 882939
+2024-12-16 17:33:52.132 [http-nio-8080-exec-3] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 882960
+2024-12-16 17:34:20.641 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 17:34:20.647 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token] with root cause
+cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:137)
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:104)
+	at cn.dev33.satoken.stp.StpLogic.getLoginId(StpLogic.java:673)
+	at cn.dev33.satoken.stp.StpLogic.checkLogin(StpLogic.java:658)
+	at cn.dev33.satoken.stp.StpUtil.checkLogin(StpUtil.java:289)
+	at com.school.broadcast.config.SaTokenConfiguration.lambda$2(SaTokenConfiguration.java:23)
+	at cn.dev33.satoken.router.SaRouterStaff.check(SaRouterStaff.java:225)
+	at cn.dev33.satoken.router.SaRouterStaff.match(SaRouterStaff.java:266)
+	at cn.dev33.satoken.router.SaRouter.match(SaRouter.java:272)
+	at com.school.broadcast.config.SaTokenConfiguration.lambda$0(SaTokenConfiguration.java:20)
+	at cn.dev33.satoken.interceptor.SaInterceptor.preHandle(SaInterceptor.java:97)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-12-16 17:34:34.089 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 17:34:34.091 [http-nio-8080-exec-9] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token] with root cause
+cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:137)
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:104)
+	at cn.dev33.satoken.stp.StpLogic.getLoginId(StpLogic.java:673)
+	at cn.dev33.satoken.stp.StpLogic.checkLogin(StpLogic.java:658)
+	at cn.dev33.satoken.stp.StpUtil.checkLogin(StpUtil.java:289)
+	at com.school.broadcast.config.SaTokenConfiguration.lambda$2(SaTokenConfiguration.java:23)
+	at cn.dev33.satoken.router.SaRouterStaff.check(SaRouterStaff.java:225)
+	at cn.dev33.satoken.router.SaRouterStaff.match(SaRouterStaff.java:266)
+	at cn.dev33.satoken.router.SaRouter.match(SaRouter.java:272)
+	at com.school.broadcast.config.SaTokenConfiguration.lambda$0(SaTokenConfiguration.java:20)
+	at cn.dev33.satoken.interceptor.SaInterceptor.preHandle(SaInterceptor.java:97)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-12-16 17:37:33.977 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:37:33.978 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-12-16 17:37:33.985 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-12-16 17:37:34.272 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 26680 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 17:37:34.273 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 17:37:34.606 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 17:37:34.607 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 17:37:34.607 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 17:37:34.637 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 17:37:34.637 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 360 ms
+2024-12-16 17:37:34.673 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 17:37:34.764 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2024-12-16 17:37:35.077 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:37:35.097 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 17:37:35.141 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 17:37:35.153 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 17:37:35.158 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 0.924 seconds (JVM running for 1113.973)
+2024-12-16 17:37:35.159 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-16 17:37:36.669 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:37:36.670 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2024-12-16 17:37:36.674 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2024-12-16 17:37:36.861 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Starting SchoolVoiceBroadcastApplication using Java 1.8.0_371 on DESKTOP-6Q0MRFU with PID 26680 (D:\workspace\psh\schoolVoiceBroadcast\target\classes started by zdiai in D:\workspace\psh\schoolVoiceBroadcast)
+2024-12-16 17:37:36.862 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - No active profile set, falling back to default profiles: default
+2024-12-16 17:37:37.337 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-16 17:37:37.338 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-16 17:37:37.338 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-16 17:37:37.370 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-16 17:37:37.370 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 505 ms
+2024-12-16 17:37:37.405 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-16 17:37:37.482 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2024-12-16 17:37:37.846 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-16 17:37:37.866 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2024-12-16 17:37:37.909 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-16 17:37:37.916 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 17:37:37.919 [restartedMain] INFO  c.school.broadcast.SchoolVoiceBroadcastApplication - Started SchoolVoiceBroadcastApplication in 1.094 seconds (JVM running for 1116.734)
+2024-12-16 17:37:37.920 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-16 17:37:54.193 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 17:37:54.193 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-16 17:37:54.194 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-16 17:37:54.573 [http-nio-8080-exec-2] INFO  c.b.wx.miniapp.api.impl.BaseWxMaServiceImpl - resultContent: {"access_token":"87_i3bXHMlKGsCrXgkZcvu3YJM6U8OHHNLCdPrQVdcjaoMhUfNNl7DEzYCuDHnMyS8b5cMfCcyvSqFFKb8zmc7iJmjxIwWom_Nrid9oD21tTuhyCgSlEw1FsjJUBW8PUTbAIAHML","expires_in":7200}
+2024-12-16 17:37:54.801 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 17:37:54.802 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 17:39:03.572 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 17:40:06.444 [http-nio-8080-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 131663
+2024-12-16 17:40:06.446 [http-nio-8080-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 148975
+2024-12-16 17:40:06.447 [http-nio-8080-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 148986
+2024-12-16 17:40:06.449 [http-nio-8080-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 148999
+2024-12-16 17:40:06.451 [http-nio-8080-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/school_broadcast?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, version : 1.2.8, lastPacketReceivedIdleMillis : 149011
+2024-12-16 17:40:09.835 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]
+2024-12-16 17:40:29.914 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [cn.dev33.satoken.exception.NotLoginException: 未能读取到有效Token]

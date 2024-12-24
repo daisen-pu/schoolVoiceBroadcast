@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="header">
+    <view class="welcome">欢迎使用校园广播</view>
+    <view class="user-info" wx:if="{{hasUserInfo}}">
+      <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+      <text class="nickname">{{userInfo.nickName}}</text>
+    </view>
+    <button wx:else class="login-btn" bindtap="login">微信登录</button>
+  </view>
+
+  <view class="notice-board">
+    <view class="title">最新通知</view>
+    <view class="notice-list">
+      <view class="notice-item" wx:for="{{notifications}}" wx:key="id" bindtap="goToDetail" data-id="{{item.id}}">
+        <view class="notice-title">{{item.title}}</view>
+        <view class="notice-time">{{item.createTime}}</view>
+      </view>
+      <view class="empty" wx:if="{{notifications.length === 0}}">暂无通知</view>
+    </view>
+  </view>
+
+  <view class="quick-actions">
+    <view class="action-item" bindtap="goToChildren">
+      <image src="/images/children.png"></image>
+      <text>子女管理</text>
+    </view>
+    <view class="action-item" bindtap="goToNotifications">
+      <image src="/images/notification.png"></image>
+      <text>通知列表</text>
+    </view>
+    <view class="action-item" bindtap="goToUserInfo">
+      <image src="/images/settings.png"></image>
+      <text>个人信息</text>
+    </view>
+  </view>
+</view>

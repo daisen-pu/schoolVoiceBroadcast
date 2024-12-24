@@ -1,0 +1,44 @@
+<view class="container">
+  <view class="header">
+    <view class="title">管理后台</view>
+    <view class="logout" bindtap="logout">退出登录</view>
+  </view>
+
+  <view class="menu-list">
+    <view class="menu-item" bindtap="goToSchool">
+      <image src="/images/school.png"></image>
+      <text>学校管理</text>
+    </view>
+    <view class="menu-item" bindtap="goToGrade">
+      <image src="/images/grade.png"></image>
+      <text>年级管理</text>
+    </view>
+    <view class="menu-item" bindtap="goToClass">
+      <image src="/images/class.png"></image>
+      <text>班级管理</text>
+    </view>
+    <view class="menu-item" bindtap="goToUser">
+      <image src="/images/users.png"></image>
+      <text>用户管理</text>
+    </view>
+    <view class="menu-item" bindtap="goToNotification">
+      <image src="/images/notification.png"></image>
+      <text>通知管理</text>
+    </view>
+  </view>
+
+  <view class="statistics">
+    <view class="stat-item">
+      <text class="label">学校总数</text>
+      <text class="value">{{stats.schoolCount}}</text>
+    </view>
+    <view class="stat-item">
+      <text class="label">用户总数</text>
+      <text class="value">{{stats.userCount}}</text>
+    </view>
+    <view class="stat-item">
+      <text class="label">通知总数</text>
+      <text class="value">{{stats.notificationCount}}</text>
+    </view>
+  </view>
+</view>

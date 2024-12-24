@@ -8,11 +8,11 @@
         <version>2.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>schoolVoiceBroadcast</artifactId>
+    <groupId>com.school</groupId>
+    <artifactId>voiceBroadcast</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>schoolVoiceBroadcast</name>
-    <description>schoolVoiceBroadcast</description>
+    <name>Voice Broadcast</name>
+    <description>VoiceBroadcast</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -54,6 +54,60 @@
             <artifactId>jacob</artifactId>
             <version>1.18</version>
         </dependency>
+        <!-- MySQL驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- MyBatis-Plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.3.4</version>
+        </dependency>
+
+        <!-- 数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.2.8</version>
+        </dependency>
+        <!-- 微信小程序SDK -->
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-miniapp</artifactId>
+            <version>4.5.0</version>
+        </dependency>
+
+        <!-- Sa-Token 权限认证 -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-spring-boot-starter</artifactId>
+            <version>1.34.0</version>
+        </dependency>
+
+        <!-- hutool工具包 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.11</version>
+        </dependency>
+
+        <!-- fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.83</version>
+        </dependency>
+
+        <!-- commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.11</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -81,5 +135,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
